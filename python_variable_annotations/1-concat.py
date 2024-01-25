@@ -1,4 +1,4 @@
-#!/bin/usr/env python3
+#!/usr/bin/env python3
 """
 A type-annoted function concat that
 takes two strings as arguments and returns it concatenated
