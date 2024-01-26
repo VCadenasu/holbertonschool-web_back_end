@@ -6,7 +6,7 @@ A type-annotated function "sum_list" which takes a list
 from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """Gives the sumatory of the elements in list"""
     res = 0
     for val in input_list:
