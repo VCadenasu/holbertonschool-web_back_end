@@ -8,6 +8,7 @@ return a tuple.
 
 from typing import Union, Tuple
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Return a tuple with k as first element and square v"""
     return k, float(v ** 2)
