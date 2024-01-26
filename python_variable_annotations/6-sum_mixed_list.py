@@ -12,3 +12,4 @@ def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     for val in mxd_lst:
         res += val
     return float(res)
+    
