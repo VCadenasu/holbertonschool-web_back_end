@@ -4,7 +4,9 @@ Sum a list of floats
 """
 from typing import List
 
+
 def sum_list(input_list: list[float]) -> float:
+    """Gives the sumatory of the elements in list"""
     res = 0
     for val in input_list:
         res += val
