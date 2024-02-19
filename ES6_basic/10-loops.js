@@ -1,7 +1,8 @@
 export default function appendToEachArrayValue(array, appendString) {
-  for (let idx of array) {
+  for (const idx of array) {
+    let NewArray;
     NewArray = appendString + idx;
   }
 
-  return array;
+  return NewArray;
 }
