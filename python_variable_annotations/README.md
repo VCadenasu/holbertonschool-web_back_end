@@ -4,3 +4,4 @@
 3-to_str: Convert a float argument to a string element.
 4-define_variables: How to declare variables with a specific type and value.
 5-sum_list: Sums the elements of a list and return as a float.
+6-sum_mixed_list: Sums the elements of a list with different types.
