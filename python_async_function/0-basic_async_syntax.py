@@ -9,7 +9,7 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """Make a randon number within 0 and max_delay"""
     random_delay = random.uniform(0, max_delay)
     await asyncio.sleep(random_delay)
