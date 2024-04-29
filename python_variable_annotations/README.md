@@ -6,3 +6,5 @@
 5-sum_list: Sums the elements of a list and return as a float.
 6-sum_mixed_list: Sums the elements of a list with different types.
 7-to_kv: A tuple with to different types.
+8-make_multiplier: Returns a function that multiplies a float by multiplier.
+9-element_length: Return values with the appropriate types of a iterable.
